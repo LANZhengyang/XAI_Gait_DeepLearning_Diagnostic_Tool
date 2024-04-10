@@ -48,7 +48,7 @@ You should train the model first. And run:
 ```
 python XAI_methods.py
 ```
-Computing XAI all at once requires a lot of memory for a large number of inputs (LIME and Integrated Gradients style [XAI_methods.py](https://github.com/LANZhengyang/Gait_DeepLearning_Diagnostic_Tool/blob/main/XAI_methods.py)). Computing it multiple times separately can alleviate the memory shortage problem. (DeepShap style in [XAI_methods.py](https://github.com/LANZhengyang/Gait_DeepLearning_Diagnostic_Tool/blob/main/XAI_methods.py))
+Computing XAI all at once requires a lot of memory for a large number of inputs (LIME style in [XAI_methods.py](https://github.com/LANZhengyang/XAI_Gait_DeepLearning_Diagnostic_Tool/blob/7f04db4cb576a8d0d4c920d18ff60a776fe01ee9/XAI_methods.py#L52-L86)). Computing it multiple times separately can alleviate the memory shortage problem. (DeepShap style in [XAI_methods.py](https://github.com/LANZhengyang/XAI_Gait_DeepLearning_Diagnostic_Tool/blob/7f04db4cb576a8d0d4c920d18ff60a776fe01ee9/XAI_methods.py#L104-L139))
 
 
 ### For the feature selection:
